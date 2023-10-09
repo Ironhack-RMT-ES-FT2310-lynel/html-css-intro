@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+body {
+  background-color: brown;
+  color: black
+}
+
+#main-title {
+  color: aquamarine;
+}
+
+.title {
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Gabarito', cursive;
+  text-shadow: 2px 2px 5px gray;
+}
+
+/* ESPECIFICIDAD => nivel de prioridad */
+
+/* 
+1. Estilos en linea
+2. IDs
+3. Classes
+4. Etiquetas (tags)
+5. otro tipo de selectores
+*/
+
+#movies {
+  background-color: lightblue;
+}
+
+#brands {
+  background-color: lightgreen;
+}
+
+#bands {
+  background-color: lightsalmon;
+}
+
+
+
+#movies li {
+  color: blue
+}
+
+#brands li {
+  color: green
+}
+
+#bands li {
+  color: red
+}
+
+
+#movies, #brands, #bands {
+
+  /* border-width: 3px;
+  border-style: solid;
+  border-color: gray; */
+  
+  border: 5px solid gray;
+
+  /* padding: 30px; */
+
+  /* padding-left: 30px;
+  padding-bottom: 20px; */
+
+  padding: 0px 0px 20px 30px;
+  
+  /* margin: 10px; */
+
+  margin: 0px 30px 20px 30px;
+
+  opacity: 0.9;
+
+}
+
+section li {
+  list-style-type: decimal;
+
+  padding-left: 20px;
+  list-style-position: inside;
+
+}
+
+
+body {
+  background-image: url("./assets/matrix-5361690_1280.webp");
+  background-position: center;
+  background-size: cover;
+}
